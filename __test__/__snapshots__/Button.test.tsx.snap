@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`🔹 Button Component Test ✅ Snapshot 테스트 1`] = `
+<button
+  data-testid="custom-button"
+>
+  스냅샷 테스트
+</button>
+`;
