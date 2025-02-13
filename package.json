@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest --verbose --runInBand",
+    "test:unit": "jest --verbose --runInBand --testPathIgnorePatterns=integration", 
+    "test:integration": "jest --verbose --runInBand --testPathPattern=integration"
   },
   "dependencies": {
     "next": "15.1.7",
